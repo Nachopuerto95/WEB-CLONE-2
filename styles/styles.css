@@ -1,0 +1,101 @@
+:root {
+    --cursive-font: 'Allura', cursive;
+    --sans-font: 'Open Sans', sans-serif;
+    
+
+}
+
+html {
+    font-family: var(--sans-font);
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+body {
+    margin: 0;
+    background-color: white;
+    max-width: 1200px;
+}
+header{
+    width:1200px;
+}
+
+header nav{
+    width:1200px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    width: 70%;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0 10px 0 10px;
+    padding: 0;
+    
+    
+}
+
+.menuElement{
+    
+    text-align: center;
+    
+    width: 120px;
+    padding: 5px 10px 5px 10px;
+}
+
+.logoMenu {
+    width: 80px;
+}
+
+.banner {
+    background-image: url(/img/banner.jpg);
+    height: 460px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+.flyButton{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    padding: 18px 15px 18px 15px;
+    border-radius: 5px;
+}
+
+.destinies{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.destinies h2 {
+    font-weight: 700;
+    font-size: 28px;
+
+}
+
+.destinies p{
+    align-self: center;
+    width: 60%;
+    font-size: 14px;
+}
