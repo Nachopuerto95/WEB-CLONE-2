@@ -13,68 +13,129 @@
 
 </head>
 <body>
-    <header>
+    <header id="home">
         <nav>
             <ol class="menu">
-                <li class="menuElement">Home</li>
-                <li class="menuElement">Destinies</li>
-                 <li class="menuElement"><img class="logoMenu" src="img/logo.png" alt=""></li>
-                <li class="menuElement">Experiences</li>
-                <li class="menuElement">Contact us</li>
+                <li > <a class="menuElement" href="#home">Home</a></li> 
+                <li > <a class="menuElement" href="#destinies">Destinies</a></li> 
+                <li class="menuElement"><img class="logoMenu" src="img/logo.png" alt=""></li>
+                <li > <a class="menuElement" href="#experiences">Experiences</a></li> 
+                <li > <a class="menuElement" href="#contact">Contact us</a></li> 
             </ol>
         </nav>
     </header>
     <section class="banner">
         <h1>Welcome!</h1>
-        <a href="" class="flyButton"> <i class="fa-solid fa-plane"></i> Fly with us!!!</a>
+        <a href="#" class="flyButton"> <i class="fa-solid fa-plane"></i> Fly with us!!!</a>
     </section>
-    <section class="destinies">
+    <section id="destinies" class="destinies">
 
         <h2>Our destinies</h2>
         <p>With us you can fly to more than 100 international destinations. You just have to choose the city you want to visit, and we will take care of everything for you. You've been dreaming of your ideal vacation for a long time, let us make it a reality!</p>
         <div class="destiniesGrid">
-            <div class="dItem1">
+            <div id="dItem1" class="dItem">
                 <div>
-                    <a href="">Paris je t'aime</a>
+                    <img src="img/paris.jpg" alt="Paris image">
+                    <a href="#">Paris je t'aime</a>
                 </div>
-                <span>5 days</span>
-                <span>Exclusive price</span>
-                <a href="">More info</a>
+                <span class="dItemSpan">5 days</span>
+                <span class="orangeSpan">Exclusive price</span>
+                <a href="#home">More info</a>
             </div>
-            <div class="dItem2">
+            <div id="dItem2" class="dItem">
                 <div>
-                    <a href="">I <i class="fa-solid fa-heart"></i> New York</a>
+                    <img src="img/new_york.jpg" alt="New York image">
+                    <a href="#">I <i class="fa-solid fa-heart"></i> New York</a>
                 </div>
-                <span>8 days</span>
-                <span>Special Offer</span>
-                <a href="">More info</a>
+                <span class="dItemSpan">8 days</span>
+                <span class="orangeSpan">Special Offer</span>
+                <a href="#home">More info</a>
             </div>
-            <div class="dItem3">
-                <img src="img/paris.jpg" alt="">
-                <span>5 days</span>
-                <span>Exclusive price</span>
-                <a href="">More info</a>
+            <div id="dItem3" class="dItem">
+                <div>
+                    <img src="img/london.jpg" alt="London image">
+                    <a href="#">This is London</a>
+                </div>
+                <span class="dItemSpan">5 days</span>
+                <span class="orangeSpan">Exclusive price</span>
+                <a href="#home">More info</a>
             </div>
-            <div class="dItem4">
-                <img src="img/paris.jpg" alt="">
-                <span>5 days</span>
-                <span>Exclusive price</span>
-                <a href="">More info</a>
+            <div id="dItem4" class="dItem">
+                <div>
+                    <img src="img/rome.jpg" alt="Rome image">
+                    <a href="#">Historical Rome</a>
+                </div>
+                <span class="dItemSpan">5 days</span>
+                <span class="orangeSpan">Exclusive price</span>
+                <a href="#home">More info</a>
             </div>
-            <div class="dItem5">
-                <img src="img/paris.jpg" alt="">
-                <span>6 days</span>
-                <span>Great bargain</span>
-                <a href="">More info</a>
+            <div id="dItem5" class="dItem">
+                <div>
+                    <img src="img/athens.jpg" alt="Athens image">
+                    <a href="#">Classical Athens</a>
+                </div>
+                <span class="dItemSpan">6 days</span>
+                <span class="orangeSpan">Great bargain</span>
+                <a href="#home">More info</a>
             </div>
-            <div class="dItem6">
-                <img src="img/paris.jpg" alt="">
-                <span>5 days</span>
-                <span>Great bargain</span>
-                <a href="">More info</a>
+            <div id="dItem6" class="dItem">
+                <div>
+                    <img src="img/amsterdam.jpg" alt="Amsterdam image">
+                    <a href="#">Amsterdam, freedom city</a>
+                </div>
+                <span class="dItemSpan">5 days</span>
+                <span class="orangeSpan">Great bargain</span>
+                <a href="#home">More info</a>
             </div>
-
         </div>
     </section>
+    <section id="experiences" class="experiences">
+        <h2>Our experiences</h2>
+        <p>Life is made of great moments, let us create them for you. We design unique experiences that will leave you with unforgettable memories. Whether you prefer cultural tourism or if you just want to relax and enjoy nature, we have hundreds of possibilities for you.</p>
+        <div class="expContainer">
+            <div class="expItem">
+                <figure>
+                    <img src="img/relax.jpg" alt="A woman sitting in a hammock on the beach">
+                    <figcaption>Maximum relaxation</figcaption>
+                </figure>
+                <p>It's time to relax, enjoy our plans to get lost in nature</p>
+            </div>
+            <div  class="expItem">
+                <figure>
+                    <img id="circularImg" src="img/culture.jpg" alt="Two turists looking at a building">
+                    <figcaption>Live the culture</figcaption>
+                </figure>
+                <p>Our guides will show you the most charming places in the main cities of the world</p>
+            </div>
+            <div class="expItem">
+                <figure>
+                    <img src="img/adventure.jpg" alt="the side of a snowy mountain">
+                    <figcaption>Enjoy your adventure</figcaption>
+                </figure>
+                <p>Hiking, climbing, rafting... Tell us what adventure you prefer and we will prepare it for you</p>
+            </div>
+        </div>
+    </section>
+    <footer id="contact">
+        <div class="contactItem">
+            <h3>Contact info</h3>
+        <address id="addr">
+            <p>UOC Travels</p>
+            <a href="mailto:info@uoctravels.com"><i class="fa-sharp fa-solid fa-envelope"></i>info@uoctravels.com</a>
+            <p> <i class="fa-solid fa-phone"></i>+34 123 456 789</p>
+        </address>
+        </div>
+        
+        <div class="contactItem">
+            <h3>Live the culture</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d748.1262218861958!2d2.194206090521287!3d41.40655756295275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a33d25b76e7f%3A0xf77b18819205bfdc!2sUOC%20Universidad%20Abierta%20de%20Catalu%C3%B1a!5e0!3m2!1ses!2ses!4v1701966431081!5m2!1ses!2ses" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contactItem">
+            <h3>Follow us in</h3>
+            <i id="face" class="fa-brands fa-facebook"></i>
+            <i id="twitt" class="fa-brands fa-twitter"></i>
+            <i id="insta" class="fa-brands fa-square-instagram"></i>
+        </div>
+    </footer>
 </body>
 </html>
